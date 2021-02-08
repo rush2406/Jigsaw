@@ -86,9 +86,3 @@ config:
     NUM_NODES: 1
     NUM_PROC_PER_NODE: 8
     INIT_METHOD: tcp
-  MACHINE:
-    DEVICE: gpu
-  CHECKPOINT:
-    DIR: "."
-    AUTO_RESUME: True
-    CHECKPOINT_FREQUENCY: 1
