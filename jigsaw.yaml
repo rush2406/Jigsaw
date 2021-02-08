@@ -81,8 +81,3 @@ config:
           update_interval: epoch
           interval_scaling: [rescaled, fixed]
           lengths: [0.047619, 0.952381]
-  DISTRIBUTED:
-    BACKEND: nccl
-    NUM_NODES: 1
-    NUM_PROC_PER_NODE: 8
-    INIT_METHOD: tcp
